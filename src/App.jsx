@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Header from './Components/Navbar/Header'
+import Footer from './Components/Footer/Footer'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header />
       <div className='bg-indigo-600 w-full h-screen'></div>
+      <Footer />
     </>
   )
 }
